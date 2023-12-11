@@ -1,0 +1,34 @@
+body{
+    background: #e2e2e2;
+}
+.primary-background{
+    background: #703CFF;
+}
+.primary-color{
+    color: #703CFF;
+}
+
+.color-white{
+    color: white!important;
+}
+
+.list-group-item-action {
+    &:hover{
+        cursor: pointer;
+    }
+    &:focus {
+        color: white;
+        background-color: #703CFF;
+    }
+
+    &.active {
+        color: white;
+        background-color: #703CFF;
+        border-color: white;
+    }
+}
+
+.navbar-categories-li:hover{
+    color:white;
+    background:#703CFF; 
+}
